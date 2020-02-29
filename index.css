@@ -1,0 +1,52 @@
+/*same CSS file for all html pages*/
+
+body {
+    background-color:lightgray;
+}
+
+#Name {
+    color: lightsalmon;
+    font-size: 32px;
+}
+
+a.nav-link {
+    color: yellow;
+}
+
+h1{
+    color: lightsalmon;
+    text-align: center;
+}
+
+#AboutMeImage {
+    width: 500px;
+    length: 500px;
+    align-items: center; 
+}
+
+.text-center {
+    text-align: center;
+    color:lightsalmon;
+}
+
+#Cheers {
+    width: 50px;
+    length: 50px;
+    align-content: center;
+}
+
+
+#carouselExampleCaptions {
+    width: 750px;
+    length: 750px;
+  
+}
+
+h6 {
+    text-align: center;
+}
+
+.ContactInfo {
+
+}
+
