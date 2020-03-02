@@ -4,19 +4,36 @@ body {
     background-color:lightgray;
 }
 
+h1{
+    color: lightsalmon;
+    text-align: center;
+}
+
+/*Nav Bar Styling*/
 #Name {
     color: lightsalmon;
     font-size: 32px;
 }
 
-a.nav-link {
-    color: yellow;
+/*Footer Styling*/
+.text-center {
+    border-color: black;
+    border-style: dotted;
+    margin-left:575px;
+    margin-right:575px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:lightsalmon;
 }
 
-h1{
-    color: lightsalmon;
-    text-align: center;
+#Cheers {
+    margin-top: 10px;
+    width: 50px;
+    length: 50px;
+    align-content: center;
 }
+
+/*About Me Styling*/
 
 #AboutMeImage {
     width: 500px;
@@ -24,29 +41,39 @@ h1{
     align-items: center; 
 }
 
-.text-center {
-    text-align: center;
-    color:lightsalmon;
+.rowTOP {
+    margin-top: 20px;
 }
 
-#Cheers {
-    width: 50px;
-    length: 50px;
-    align-content: center;
+#AboutText {
+    color: lightsalmon;
 }
 
-
+/*Portfolio Styling*/
 #carouselExampleCaptions {
     width: 750px;
     length: 750px;
-  
 }
 
+#row-project {
+    margin-top: 50px;
+    margin-bottom:40px;
+}
+
+#Bath{
+    height: 500px;
+    width: 500px;
+}
+
+#Shrine{
+    height: 500px;
+    width: 500px;
+}
 h6 {
     text-align: center;
 }
 
-.ContactInfo {
-
+/*Contact InfoStyling*/
+#ContactInfo {
+    margin-bottom: 40px;
 }
-
