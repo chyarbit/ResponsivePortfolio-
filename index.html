@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Homepage</title>
-    
+  
+    <!--JS Script Links-->
+    <!--First JS Script Link-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Second JS Script Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!--Third JS Script Link-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <!-- Bootstrap Stylesheet Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
     <!--CSS Stylesheet Link-->
-    <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
 <!--Navigation Bar Set Up-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" id="Name" href="index.html">Cynthia Yuen Arbit</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div> 
-
-    <div class="container">
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" id="Name" href="index.html">Cynthia Yuen Arbit</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#CynthiaYuenArbit-toggle-nav" aria-controls="CynthiaYuenArbit" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  
+  <div class="container">
+    <div class="collapse navbar-collapse" id="CynthiaYuenArbit-toggle-nav">
       <ul class="navbar-nav autonavbar-nav auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About Me</a>
@@ -35,11 +42,11 @@
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Info</a>
+          <a class="nav-link" href="contact.html">Contact Me</a>
         </li>
       </ul>
     </div>
-    </div>
+  </div>
 </nav>
 
 <!--Main Content-->
@@ -52,8 +59,8 @@
 
   <div class="container">
     <!-- First Row -->
-    <div class="rowTOP">
-      <div class="container">
+    <div class="row rowTOP">
+      <div class="col-sm-12">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dolore earum quam error nihil consectetur nam repudiandae id eligendi vero perferendis, sapiente voluptas laboriosam unde magnam minima sunt velit! Animi.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dolore earum quam error nihil consectetur nam repudiandae id eligendi vero perferendis, sapiente voluptas laboriosam unde magnam minima sunt velit! Animi.  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus dolore earum quam error nihil consectetur nam repudiandae id eligendi vero perferendis, sapiente voluptas laboriosam unde magnam minima sunt velit! Animi.</p>
       
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit fugit aperiam voluptas similique beatae excepturi, dolorum nihil aspernatur nobis obcaecati iusto itaque dolores vero eius libero id hic? Minima?</p>
@@ -62,34 +69,39 @@
 
     <!--Second Row-->
     <div class="row">
-    <!-- First Column of Three -->
-    <div class="col-lg-4">
-      <h5 id="AboutText">Education</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus?</p>
-    </div>
+      <!-- First Column of Three -->
+      <div class="col-md-4">
+        <h5 class="AboutText">Education</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus? 
+        </p>
+      </div>
 
-    <!-- Second Column of Three -->
-    <div class="col-md-4">
-      <h5 id="AboutText">Notable Accomplishments</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus?</p>
-    </div>
+      <!-- Second Column of Three -->
+      <div class="col-md-4">
+        <h5 class="AboutText">Notable Accomplishments</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus?
+        </p>
+      </div>
 
-    <!-- Third Column of Three -->
-    <div class="col-md-4">
-      <h5 id="AboutText">Awards and Recognition</h5>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus?</p>
-    </div>
+      <!-- Third Column of Three -->
+      <div class="col-md-4">
+        <h5 class="AboutText">Awards and Recognition</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis molestiae quos ut harum. Totam a rem nisi quis rerum velit ducimus perferendis deserunt! Quibusdam, impedit eveniet! Quas incidunt esse possimus?
+        </p>
+      </div>
     </div>
   </div>
-
-</main>  
-</body>
+</main>
 
 <footer>
-  <div class="text-center">
+  <div class="text-center col-sm-12">
     <img id="Cheers" src="https://media.istockphoto.com/vectors/pair-of-champagne-glasses-holiday-toast-vector-id637343218" class="rounded" alt="Cheers!">
     <p>CHYA LLC</p>
   </div>
 </footer>
 
+</body>
 </html>

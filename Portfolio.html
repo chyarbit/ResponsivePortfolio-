@@ -11,6 +11,14 @@
 
     <!--CSS Stylesheet Link-->
     <link rel="stylesheet" href="index.css">
+
+    <!--JS Script Links-->
+    <!--First JS Script Link-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Second JS Script Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!--Third JS Script Link-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,13 +27,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" id="Name" href="index.html">Cynthia Yuen Arbit</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#CynthiaYuenArbit-toggle-nav" aria-controls="CynthiaYuenArbit" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  </div> 
-
+  </div>
+  
   <div class="container">
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="collapse navbar-collapse" id="CynthiaYuenArbit-toggle-nav">
       <ul class="navbar-nav autonavbar-nav auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">About Me</a>
@@ -34,100 +42,112 @@
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Info</a>
+          <a class="nav-link" href="contact.html">Contact Me</a>
         </li>
       </ul>
     </div>
-    </div>
+  </div>
 </nav>
 
 <!--Main Content-->
 <h1>Portfolio</h1>
 
+<main>
 <!--Project Slideshow-->
 <div class="container">
-<div class="row justify-content-md-center">
-<div class="col-sm-8 center-block">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-    </ol>
+  <div class="row justify-content-md-center">
+    <div class="col-sm-8 center-block">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
   
-    <div class="carousel-inner">
+      <div class="carousel-inner">
+
       <!--First Project-->
-      <div class="carousel-item active">
-        <img src="https://images.unsplash.com/photo-1540125895252-edefe1c0132e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" class="d-block w-100" alt="Pandas">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Panda Playtime</h5>
-          <p>Panda siblings play on the ground</p>
-        </div>
-      </div>
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1540125895252-edefe1c0132e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" class="d-block w-100" alt="Pandas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Panda Playtime</h5>
+                <p>
+                  Panda siblings play on the ground
+                </p>
+            </div>
+          </div>
       <!--Second Project-->
-      <div class="carousel-item">
-        <img src="https://images.unsplash.com/photo-1534418302821-e614748fcae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="Elephants">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Loving Elephants</h5>
-          <p>An elephant couple shows affection</p>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1534418302821-e614748fcae9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="Elephants">
+              <div class="carousel-caption d-none d-md-block">
+              <h5>Loving Elephants</h5>
+                <p>
+                  An elephant couple shows affection
+                </p>
+            </div>
         </div>
-      </div>
       <!--Third Project-->
-      <div class="carousel-item">
-        <img src="https://images.unsplash.com/photo-1530432999454-016a47c78af3?ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80" class="d-block w-100" alt="Stranger Things">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Fanclub</h5>
-          <p>Stranger Things Fan Memorabilia</p>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1530432999454-016a47c78af3?ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80" class="d-block w-100" alt="Stranger Things">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fanclub</h5>
+                <p>
+                  Stranger Things Fan Memorabilia
+                </p>
+              </div>
         </div>
-      </div>
       <!--Fourth Project-->
-      <div class="carousel-item">
-        <img src="https://images.unsplash.com/photo-1533317594614-e8800311fdc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="Stranger Things Landscape">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>The Upside Down</h5>
-          <p>The Upside Down or just Hawkins, Indiana?</p>
-        </div>
-      </div> 
-    </div>    
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1533317594614-e8800311fdc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" class="d-block w-100" alt="Stranger Things Landscape">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>The Upside Down</h5>
+                <p>
+                  The Upside Down or just Hawkins, Indiana?
+                </p>
+            </div>
+        </div> 
+      </div>    
+    <!--Captions for the Slideshow-->
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
   </div>
 </div>
-</div>
-</div>
 
+<!--Next set of projects-->
 <div class="container">
   <div class="row" id="row-project">
-  <!-- Project 5 as 1st Column of 2 -->
-  <div class="col-sm-6">
-    <img id="Bath"src="https://images.unsplash.com/photo-1570135460243-84a775827316?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="mosaic bath">
-    <h6>Serene baths</h6> 
-  </div>
+    <!-- Project 5 as 1st Column of 2 -->
+    <div class="col-sm-6">
+      <a href="https://chyarbit.github.io/Homework-1/">
+      <img id="CodeRefractor"src="https://www.perforce.com/sites/default/files/image/2018-12/image-blog-best-practices-code-reviews.jpg" alt="Code Refractor">
+        <h6>Code Refractor</h6> 
+      </a>
+    </div>
 
-  <!-- Project 6 as 2nd Column of 2 -->
-  <div class="col-sm-6">
-    <img id="Shrine" src="https://images.unsplash.com/photo-1552544616-0efafcb11701?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="shrine">
-    <h6>Prayer Shrine</h6>
-  </div>  
+    <!-- Project 6 as 2nd Column of 2 -->
+    <div class="col-sm-6">
+      <img id="CodeRefractor" src="https://images.unsplash.com/photo-1552544616-0efafcb11701?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="shrine">
+        <h6>Prayer Shrine</h6>
+    </div>  
   </div> 
 </div>
- 
-</body>
 
 <footer>
-  <div class="text-center">
+  <div class="text-center col-sm-12">
     <img id="Cheers" src="https://media.istockphoto.com/vectors/pair-of-champagne-glasses-holiday-toast-vector-id637343218" class="rounded" alt="Cheers!">
-
     <p>CHYA LLC</p>
   </div>
 </footer>
+
+</body>
 
 </html>
 

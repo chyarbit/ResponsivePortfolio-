@@ -17,19 +17,18 @@ h1{
 
 /*Footer Styling*/
 .text-center {
-    border-color: black;
-    border-style: dotted;
-    margin-left:575px;
-    margin-right:575px;
-    margin-bottom: 50px;
     text-align: center;
     color:lightsalmon;
+    margin-top: 20px;
+}
+
+img{
+    max-width: 90%;
 }
 
 #Cheers {
     margin-top: 10px;
     width: 50px;
-    length: 50px;
     align-content: center;
 }
 
@@ -37,7 +36,6 @@ h1{
 
 #AboutMeImage {
     width: 500px;
-    length: 500px;
     align-items: center; 
 }
 
@@ -45,14 +43,15 @@ h1{
     margin-top: 20px;
 }
 
-#AboutText {
+.AboutText {
     color: lightsalmon;
 }
 
 /*Portfolio Styling*/
+
 #carouselExampleCaptions {
     width: 750px;
-    length: 750px;
+    max-width: 95%;
 }
 
 #row-project {
@@ -60,7 +59,7 @@ h1{
     margin-bottom:40px;
 }
 
-#Bath{
+#CodeRefractor{
     height: 500px;
     width: 500px;
 }
@@ -69,11 +68,7 @@ h1{
     height: 500px;
     width: 500px;
 }
+
 h6 {
     text-align: center;
-}
-
-/*Contact InfoStyling*/
-#ContactInfo {
-    margin-bottom: 40px;
 }
