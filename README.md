@@ -7,8 +7,9 @@ It consists of 3 .html files (index.html, portfolio.html, and contact.html) that
 For styling, CSS, Bootstrap and Javascript are used.  
 
 # Links-
-Github repository link:
+Responsive Portfolio direct link:
  https://chyarbit.github.io/ResponsivePortfolio-/
  
-Responsive Portfolio direct link:
+
+Github repository link:
  https://github.com/chyarbit/ResponsivePortfolio-

@@ -59,14 +59,11 @@ img{
     margin-bottom:40px;
 }
 
-#CodeRefractor{
-    height: 500px;
-    width: 500px;
-}
-
-#Shrine{
-    height: 500px;
-    width: 500px;
+.card-img-top {
+    margin: 15px;
+    width:300px;
+    height: 15vw;
+    
 }
 
 h6 {
