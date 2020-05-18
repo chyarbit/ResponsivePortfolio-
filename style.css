@@ -15,27 +15,10 @@ h1{
     font-size: 32px;
 }
 
-/*Footer Styling*/
-.text-center {
-    text-align: center;
-    color:lightsalmon;
-    margin-top: 20px;
-}
-
-img{
-    max-width: 90%;
-}
-
-#Cheers {
-    margin-top: 10px;
-    width: 50px;
-    align-content: center;
-}
-
 /*About Me Styling*/
 
 #AboutMeImage {
-    width: 500px;
+    width: 1000px;
     align-items: center; 
 }
 
@@ -61,7 +44,7 @@ img{
 
 .card-img-top {
     margin: 15px;
-    width:100%;
+    width:90%;
     height: 50%;
     
 }
